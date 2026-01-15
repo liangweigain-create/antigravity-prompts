@@ -1,5 +1,4 @@
 ---
-trigger: always_on
 name: code-quality-standard
 description: Snippets that defines What is considered good code quality.
 ---
