@@ -1,4 +1,5 @@
 ---
+trigger: always_on
 name: communication-protocol
 description: defines How to communicate with the user.
 ---

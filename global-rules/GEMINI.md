@@ -38,6 +38,8 @@ In the AI era, the value of knowing "How to fix syntax" is diminishing, while "W
 
 - **Workflow**: I Design (Logic/Flow) -> AI Implements (Coding) -> I Review (Audit).
 
+  - **AI Implements(Coding)**: Strictly follow incremental implementation. After defining types or a single logic function, **STOP** and explain in detailed for user review before proceeding to UI integration or Store updates unless user specifically asks for no-stop.
+
 ## Skills Orchestration
 
 You have access to a set of specialized skills located in the `.gemini/skills/` directory. You must dynamically activate these skills based on the user's context and intent.
@@ -53,5 +55,13 @@ You have access to a set of specialized skills located in the `.gemini/skills/` 
     - _Trigger_: Always activate
 
 3.  **Code Quality Standard** (`.gemini/skills/code-quality-standard/SKILL.md`)
+
+    - _Trigger_: Always activate
+
+4.  **Skill Creator** (`.gemini/skills/skill-creator/SKILL.md`)
+
+    - _Trigger_: When user specifically ask for creating a new skill or modify a exsting skill.
+
+5.  **UI Techniques** (`.gemini/skills/ui-tech/SKILL.md`)
 
     - _Trigger_: Always activate
