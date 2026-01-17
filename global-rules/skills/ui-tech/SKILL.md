@@ -1,5 +1,4 @@
 ---
-trigger: always_on
 name: ui-tech
 description: Common Rules for Professional UI Development.
 ---
